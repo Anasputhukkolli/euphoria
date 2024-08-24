@@ -474,6 +474,8 @@ button.next {
 #middle .wrapper .listtwo .bottom  .carouseltwo-container .carouseltwo .slidetwo ul {
     display: flex;
     justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
 }
 button.prevtwo {
     left: 10px;
@@ -642,6 +644,8 @@ button.nexttwo {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
 }
 #middle .wrapper .listfive .bottom ul li {
     background-color: #fff;
@@ -719,15 +723,17 @@ button.nexttwo {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 98%;
 }
-
+#middle .wrapper .listsix .bottom ul li .content .name{
+}
 #middle .wrapper .listsix .bottom ul li .content .name h3{
     font-size: 16px;
     font-weight: 600;
     line-height: 19.2px;
     text-align: left;
 
-    margin-bottom: 12px;
+    margin-bottom: 4px;
     color: #3C4242;
 }
 #middle .wrapper .listsix .bottom ul li .content .name a.button{
@@ -878,7 +884,7 @@ button.nexttwo {
 footer{
     margin-top: 100px;
     background-color: #3C4242;
-    padding: 48px;
+    padding: 0 48px;
 
 }
 footer .top{
@@ -912,12 +918,27 @@ footer .top .part ul li a{
     text-align: left;
 
 }
+footer .head {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+footer .head .right{
+    width: 25%;
+}
+footer .head .right h1{
+    font-size: 28.58px;
+    font-weight: 700;
+    text-align: left;
+    color: #F6F6F6;
+}
+
 footer .support{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    padding: 48px 88px;    
+    padding: 12px 0;    
 }
 footer .support .left{
 }
@@ -932,13 +953,7 @@ footer .support .left ul li{
     padding: 12px 16px;
     border-radius: 12px;
 }
-footer .support .right h1 {
-    font-size: 28.58px;
-    font-weight: 700;
-    line-height: 61.99px;
-    text-align: left;
-    color: #F6F6F6;
-}
+
 footer .support .right .download{
     display: flex;
     justify-content: space-between;
@@ -947,8 +962,9 @@ footer .support .right .download{
 
 
 }
-footer .support .right .download .store:nth-child(2){
-    margin-left: 28px;
+footer .support .right .download .store:nth-child(1){
+    margin-right: 28px;
+    margin-bottom: 18px;
 }
 footer .support .right .download .store{
     display: flex;
@@ -967,10 +983,11 @@ hr{
     opacity: .5;
 }
 footer .categories{
-    padding: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 85%;
+    margin: 0 auto;
 }
 footer .categories .left h3{
     font-size: 28.58px;
@@ -1028,6 +1045,9 @@ footer .bottom span{
         padding: 8px 28px;
         font-size: 12px;
     }
+    #middle .wrapper .listtwo .bottom .carouseltwo-container .carouseltwo .slidetwo span{
+        font-size: 12px;
+    }
     #middle .wrapper .listthree .left .content{
         padding:  22px;
     }
@@ -1035,10 +1055,14 @@ footer .bottom span{
         font-size: 20px;
         width: 50%;
     }
+    #middle .wrapper .listthree .left .content p{
+        font-size: 14px;
+    }
     #middle .wrapper .listthree .left .content a.button{
         padding: 10px 20px;
         font-size: 13px;
     }
+    
     #middle .wrapper .listfour .bottom ul li .content {
         font-size: 12px;
     }
@@ -1048,6 +1072,7 @@ footer .bottom span{
     #middle .wrapper .listfive .bottom ul li {
         margin-left: 18px;
     }   
+   
     #middle .wrapper .listseven .bottom ul li{
         height: 100%;
     }
@@ -1064,6 +1089,19 @@ footer .bottom span{
     }
     #middle .wrapper .listfour .bottom ul li{
         width: auto;
+    }
+    /* #middle .wrapper .listsix .bottom ul li .content .pricecontainer{
+        margin-left: -20px;
+    } */
+    footer .head .right  {
+        width: auto !important;
+    }
+    footer .head  {
+        display: block;
+        
+    }
+    footer .support .left{
+        margin-bottom: 28px;
     }
     
 }
@@ -1171,12 +1209,17 @@ footer .bottom span{
         width:10px ;
     }
    
-
+    #middle .wrapper .listfour .bottom ul li{
+        width: 40%;
+    }
     #middle .wrapper .listfive .top h1{
         font-size: 38px;
     }
     #middle .wrapper .listfour .bottom ul{
         justify-content: space-around;
+    }
+    #middle .wrapper .listsix .bottom ul li{
+        width: 50%;
     }
     footer .top .part h3{
         font-size: 18px;
@@ -1213,6 +1256,7 @@ footer .bottom span{
     footer .support .right .download .store .content{
         font-size: 16px;
     }
+
 
 
 
@@ -1271,6 +1315,12 @@ footer .bottom span{
     }
     #middle .wrapper .listfive .top h1{
         font-size: 22px;
+    }
+    #middle .wrapper .listsix .bottom ul li{
+        width: auto !important;
+    }
+    #middle .wrapper .listfour .bottom ul li{
+        width: auto !important;
     }
 }
 @media all and (max-width:440px){
