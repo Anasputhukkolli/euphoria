@@ -464,7 +464,6 @@ button.next {
 
 #middle .wrapper .listtwo .bottom  .carouseltwo-container .carouseltwo .slidetwo span {
     display: block;
-    text-align: center;
     margin-top: 18px;
     font-weight: 700;
     font-family: 'Causten-bold';
@@ -521,6 +520,7 @@ button.nexttwo {
     position: absolute;
     padding: 150px 81px;
     color: var(--primary-color);
+    
 }
 
 #middle .wrapper .listthree .left .content h1{
@@ -534,12 +534,12 @@ button.nexttwo {
 #middle .wrapper .listthree .left .content p{
     color: var(--primary-color);
     line-height: 1.2em;
-    margin-bottom: 38px;
     width: 45%;
     font-weight: 300;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 34px;
     letter-spacing: 1px;
+    margin-bottom: 18px;
 }
 #middle .wrapper .listthree .left .content a.button{
     color: var(--secoundary-color);
@@ -644,7 +644,7 @@ button.nexttwo {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 #middle .wrapper .listfive .bottom ul li {
@@ -652,6 +652,7 @@ button.nexttwo {
     padding: 12px;
     border-radius: 8px;
     margin-top: 18px;
+    width: auto;
 }
 
 #middle .wrapper .listfive .bottom ul li img{
@@ -979,7 +980,7 @@ footer .support .right .download .store .content{
     color: var(--primary-color);
 }
 hr{
-    border: 1px dotted #BEBCBD;
+    border: 1px solid #BEBCBD;
     opacity: .5;
 }
 footer .categories{
@@ -1049,7 +1050,8 @@ footer .bottom span{
         font-size: 12px;
     }
     #middle .wrapper .listthree .left .content{
-        padding:  22px;
+        padding: 100px 81px;
+
     }
     #middle .wrapper .listthree .left .content h1{
         font-size: 20px;
@@ -1093,6 +1095,12 @@ footer .bottom span{
     /* #middle .wrapper .listsix .bottom ul li .content .pricecontainer{
         margin-left: -20px;
     } */
+    footer .top .part h3{
+        font-size: 21px;
+    }
+    footer .top .part ul li a{
+        font-size: 16px;
+    }
     footer .head .right  {
         width: auto !important;
     }
@@ -1103,7 +1111,17 @@ footer .bottom span{
     footer .support .left{
         margin-bottom: 28px;
     }
+
     
+}
+@media all and (max-width:900px){
+    #middle .wrapper .listthree .left .content {
+        padding: 70px 30px;
+
+    }
+    #middle .wrapper .listthree .left .content p{
+        line-height: 24px;
+    }
 }
 @media all and (max-width:640px){
 /* header section */
@@ -1192,13 +1210,11 @@ footer .bottom span{
     
     
     #middle .wrapper .listthree .left .content h1{
-        font-size: 13px;
-        width: 50%;
+        font-size: 14px;
+        width: 45%;
         margin-bottom: 8px;
     }
-    #middle .wrapper .listthree .left .content p{
-        display: none !important;
-    }
+    
 
     #middle .wrapper .listthree .left .content a.button{
         padding: 6px ;
@@ -1221,6 +1237,16 @@ footer .bottom span{
     #middle .wrapper .listsix .bottom ul li{
         width: 50%;
     }
+    #middle .wrapper .listthree .left .content{
+        padding: 30px 20px;
+    }
+    #middle .wrapper .listthree .left .content p{
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 3px;
+
+    }
+    
     footer .top .part h3{
         font-size: 18px;
         line-height: 10px;
@@ -1326,6 +1352,9 @@ footer .bottom span{
 @media all and (max-width:440px){
     #middle .wrapper .listsix .bottom ul li .staricon{
         margin-left: 200px;
+    }
+    #middle .wrapper .listthree .left .content p{
+        display: none !important;
     }
 }
 
